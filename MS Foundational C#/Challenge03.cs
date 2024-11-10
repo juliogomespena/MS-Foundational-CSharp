@@ -2,7 +2,7 @@
 {
     internal class Challenge03
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             string permission = "caller";
             int level = 30;

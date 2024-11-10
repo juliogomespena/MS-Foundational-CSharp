@@ -2,7 +2,7 @@
 {
     internal class Challenge09
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             Console.WriteLine("Enter role: (Administrator / Manager / User)");
 

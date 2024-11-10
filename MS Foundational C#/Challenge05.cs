@@ -2,7 +2,7 @@
 {
     internal class Challenge05
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             // SKU = Stock Keeping Unit. 
             // SKU value format: <product #>-<2-letter color code>-<size code>

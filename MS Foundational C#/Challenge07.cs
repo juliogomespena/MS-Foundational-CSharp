@@ -2,7 +2,7 @@
 {
     internal class Challenge07
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             int heroHealth = 10, monsterHealth = 10;
             Random attack = new Random();

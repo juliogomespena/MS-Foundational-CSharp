@@ -2,7 +2,7 @@
 {
     internal class Challenge10
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             string[] myStrings = { "I like pizza. I like roast chicken. I like salad. I like meat. I like potatoes. I like tomatoes", "I like all three of the menu choices. I like anything" };
 

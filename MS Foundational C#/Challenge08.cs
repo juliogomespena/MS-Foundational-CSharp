@@ -2,7 +2,7 @@
 {
     internal class Challenge08
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             string? input;
             int numericInput;

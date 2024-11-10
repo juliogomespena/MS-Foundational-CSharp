@@ -2,7 +2,7 @@
 {
     internal class ChallengeProject01
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             // the ourAnimals array will store the following: 
             string animalSpecies = "";

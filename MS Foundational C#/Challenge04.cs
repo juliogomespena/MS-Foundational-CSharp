@@ -2,7 +2,7 @@
 {
     internal class Challenge04
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             int[] numbers = { 4, 8, 15, 16, 23, 42 };
             int total = 0;

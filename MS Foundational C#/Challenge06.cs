@@ -2,7 +2,7 @@
 {
     internal class Challenge06
     {
-        private static void Challenge()
+        public static void Challenge()
         {
             for (int i = 1; i <= 100; i++)
             {

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Challenge01.Challenge();
+            ChallengeProject01.Challenge();
         }
     }
 }
