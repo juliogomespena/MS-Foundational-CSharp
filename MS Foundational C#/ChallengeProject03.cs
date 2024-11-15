@@ -40,38 +40,31 @@
                     Move(terminateOnNonDirectional: true);
 
                 if (FoodConsumed())
+                {
+                    ChangePlayer();
                     ShowFood();
+                }
             }
 
             //Check if player has speed boost
             bool SpeedBoost()
             {
-                if (player == states[1])
-                {
-                    return true;
-                }
-                return false;
+                return player == states[1] ? true : false;
             }
 
             //Check if player consumed food
             bool FoodConsumed()
             {
-                if (playerX == foodX && playerY == foodY)
-                {
-                    ChangePlayer();
-                    return true;
-                }
-                return false;
+                if(player == states[1])
+                    return (playerX == foodX + 2 && playerY == foodY) || (playerX == foodX - 2 && playerY == foodY) ? true : false;
+                else
+                    return (playerX == foodX && playerY == foodY) ? true : false;
             }
 
             //Check if player should freeze
             bool ShouldFreeze()
             {
-                if (player == states[2])
-                {
-                    return true;
-                }
-                return false;
+                return player == states[2] ? true : false;
             }
 
             // Returns true if the Terminal was resized 
